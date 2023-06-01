@@ -1,0 +1,51 @@
+Programme écrit par Valentin GUILLON (valentin.guillon93430@gmail.com)
+
+Création d'un arbre de décision à partir d'un Base de données (sous formes de txt)
+
+
+Une donnée est du type : "modI-att1, modI-att2, ..., modI-attn"
+    modI = une modalité d'un attribut
+    att  = un attributs
+
+
+Avant de lancer le programme, il faut remplir les infos de la BdD dans "dataBaseInfos.txt"
+(sauf indication, les espaces sont interdits)
+Il faut ainsi renseigner :
+   Le nom de la BdD (purement décoratif) optionnel (espace autorisé)
+   Le nom du fichier
+   La position de la classe dans les données (0 était la 1ère position)
+   Le nom de chaque attributs (classe inclu) dans le même ordre que celui dans les données
+   Les modalités à ignorer (tout attributs confondus)
+   Le mode d'affichage de l'arbre dans le terminal ("tab" ou "block")
+   Un booléen, indiquant si l'affichage doit être adapté pour un export dans un .dot
+
+(il y'a des problèmes avec ce dernier paramètre, laissez-le à 0)
+Commande pour générer (et ouvrir) un pdf d'arbre:
+python3 tp6_decision-tree-creation.py > graph/graph.dot && dot -Tpdf graph/graph.dot -o graph.pdf && evince graph.pdf
+
+
+
+EXEMPLE
+Vous avec un BdD dont la classe est "Jouer Dehors", qui a 4 attributs
+Vous avez les données suivantes
+1,0,1,0,1
+0,1,0,1,1
+1,?,1,0,1
+1,0,1,1,1
+0,1,1,?,0
+0,1,0,0,0
+1,!,0,1,0
+1,1,0,0,0
+La classe est placée à la 5ème position dans les données
+
+Il faut donc renseigner se qui suit dans "dataBaseInfos.txt"
+Jouer Dehors
+data/jd/jouer-dehors.data
+4
+Devoirs-Fait,Bonne-Humeur-des-parents,Beau-Temps,Gouter-Pris,Jouer-Dehors
+?,!
+tab
+0
+
+
+

@@ -1,0 +1,62 @@
+Breast Cancer
+data/breast-cancer/breast-cancer.data
+0
+Class,age,menopause,tumor-size,inv-nodes,node-caps,deg-malig,breast,breast-quad,irradiat
+?
+tab
+0
+
+===========================
+
+BdD déjà vu (juste à copier coller au début du fichier, en ayant les BdB evidemment)
+-----------------------
+
+Breast Cancer
+data/breast-cancer/breast-cancer.data
+0
+Class,age,menopause,tumor-size,inv-nodes,node-caps,deg-malig,breast,breast-quad,irradiat
+?
+tab
+0
+
+-----------------------
+
+Car
+data/car/car.data
+6
+buying,maint,doors,persons,lug_boot,safety,Class
+
+tab
+0
+
+-----------------------
+
+House Votes 84
+data/house-votes/house-votes-84.data
+0
+Class,handicapped-infants,water-project-cost-sharing,adoption-of-the-budget-resolution,physician-fee-freeze,el-salvador-aid,religious-groups-in-schools,anti-satellite-test-ban,aid-to-nicaraguan-contras,mx-missile,immigration,synfuels-corporation-cutback,education-spending,superfund-right-to-sue,crime,duty-free-exports,export-administration-act-south-africa
+?
+tab
+0
+
+-----------------------
+
+Lenses
+data/lenses/lenses.data
+4
+age of the patient,spectacle prescription,astigmatic,tear production rate,Class
+
+tab
+0
+
+-----------------------
+
+Lymphography
+data/lymphography/lymphography.data
+0
+class,lymphatics,block of affere,bl. of lymph. c,bl. of lymph. s,by pass,extravasates,regeneration of,early uptake in,lym.nodes dimin,lym.nodes enlar,changes in lym.,defect in node,changes in node,changes in stru,special forms,dislocation of,exclusion of no,no. of nodes in
+
+tab
+0
+
+-----------------------
